@@ -1,0 +1,8 @@
+input{
+  height: 32px;
+  width: 250px;
+  text-align: center;
+}
+.searchbar{
+  margin:30px auto;
+}

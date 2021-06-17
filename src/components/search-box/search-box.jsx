@@ -1,7 +1,9 @@
 import React from "react";
 import './search-box.styles.css';
 
-export const SearchBox = ({placeholder,handleChange})=>(
+export const SearchBox = ({placeholder,handleChange})=>{
+  console.log(placeholder,handleChange);
+  return(
   <div>
     <input
       className="search"
@@ -10,4 +12,4 @@ export const SearchBox = ({placeholder,handleChange})=>(
       onChange={handleChange}
     />
   </div>
-)
+)}

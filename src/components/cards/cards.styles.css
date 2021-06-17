@@ -1,0 +1,30 @@
+.cards{    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.cardslist{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 40%;
+  border: 1px solid grey;
+  margin:10px;
+}
+
+.cardslist h1{
+  font-size:17px;
+}
+
+.cardslist img{
+  width: 200px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+.cardslist-text{
+  padding-left: 10px;
+}
